@@ -1,0 +1,29 @@
+{
+  "gpio": {
+    "dout": 5,
+    "sck": 6
+  },
+  "offset_counts": 787344.325,
+  "fit": {
+    "a_grams_per_count": 0.0024634411990115315,
+    "b_grams": 0.0
+  },
+  "points": [
+    {
+      "label": "PHONE only",
+      "grams": 217.9,
+      "net_counts": 88402.73750000005
+    },
+    {
+      "label": "500g only",
+      "grams": 500.0,
+      "net_counts": 202958.75
+    },
+    {
+      "label": "PHONE + 500g together",
+      "grams": 717.9,
+      "net_counts": 291443.52500000014
+    }
+  ],
+  "note": "Calibrated using trusted masses: phone=217.9g (external scale), weight=500.0g."
+}
